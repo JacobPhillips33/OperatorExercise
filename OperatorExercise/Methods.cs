@@ -13,7 +13,7 @@ namespace OperatorExercise
             Console.WriteLine("What is the radius of your circle?");
             double radius = double.Parse(Console.ReadLine());
             double area = Math.PI * Math.Pow(radius, 2);
-            Console.WriteLine(area);
+            Console.WriteLine($"The area of a circle with radius of {radius} is {area}");
         }
     }
 }
